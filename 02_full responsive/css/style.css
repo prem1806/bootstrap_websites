@@ -1,0 +1,180 @@
+*{
+		margin:0px;
+	padding: 0px;
+}
+.top_border{
+	height: 10px;
+	width: 100%;
+	background-color: #3bafbe;
+	margin-bottom: 25px;
+
+}
+.social ul li{
+	list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.add {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar-brand {
+	    padding: 6px 15px 15px 0px;
+}
+
+.navbar-toggle .icon-bar {
+    background: white;
+}
+.cont{
+	padding-top: 10%;
+}
+.cont p,h1{
+	margin-bottom: 4%;
+}
+.cont span {
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: arial;
+}
+hr {
+    height: 1px;
+    background: #e2e2e2;
+}
+.gutter-0 {
+    padding: 15px;
+    
+}
+.imag{    
+	float: left;
+    max-width: 50%;
+    padding-right: 20px;
+}
+.content_part{
+	float: left;
+    max-width: 50%;
+}
+.mid_text{
+	margin-bottom: 20px;
+}
+.title_goes{
+	margin-bottom: 30px;
+}
+footer{
+	background-color: #252525;
+	margin-right: -15px;
+    margin-left: -15px;
+}
+footer h4, h6{
+	color: #ffffff;
+}
+footer p{
+	color: #999999;
+	margin-bottom: 5px;
+}
+.copy_rights{
+	background-color: #1a1a1a;
+	margin-right: -15px;
+    margin-left: -15px;
+	
+}
+.copy_right{
+	color: #999999;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.foot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot input{
+	width: 100% !important;
+	margin-bottom: 10px;
+}
+.quick p{
+	color: #3bafbe !important;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #2c2c2c;
+}
+
+.foot h4{
+	padding-bottom: 12px;
+}
+.txt_right{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+/* pull-right on all except xs devices */
+@media (min-width: 992px) {
+    .pull-right-md {
+        float: right;
+    }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+	.imag{    
+	float: none;
+    max-width: 100%;
+    padding-right: 20px;
+}
+.content_part{
+	float: none;
+    max-width: 100%;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.foot input{
+	width: 50% !important;
+    margin-bottom: 20px !important;
+    margin: 0 auto;
+}
+.copy_right>div:nth-child(1){
+	text-align: center !important;
+}
+
+}
+
+@media (max-width: 767px){
+	.img-center{
+	min-height: 180px; 
+	margin: 0 auto;
+}
+.img-center1{
+	min-height: 180px; 
+	margin:0 0 0 0;
+}
+
+}
+@media (max-width: 767px) {
+    .navbar-toggle {
+    background: #99b5d7;
+}
+.nav>li {	
+    background: #b9d8f7;
+    margin-bottom: 1px;
+}
+.imag{    
+	float: none;
+    max-width: 100%;
+    padding-right: 20px;
+}
+.content_part{
+	float: none;
+    max-width: 100%;
+}
+.foot{
+	text-align: center;
+}
+.txt_right{
+	text-align: center;
+}
+
+}
