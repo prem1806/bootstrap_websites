@@ -1,0 +1,16 @@
+.carousel-item{
+	height: 70vh;
+	margin-top: 50px;
+}
+.about{
+    background: rgba(0, 188, 212, 0.2);
+}
+
+.bottom_bg{
+	background: rgba(52, 58, 64, 0.8)!important;
+    color: #fff;
+}
+
+.copy_right{
+    background: #9E9E9E;
+}
